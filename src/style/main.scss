@@ -1,0 +1,588 @@
+#container {
+  margin-top: 7rem;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  background-color: #2c3646;
+  font-family: "Ropa Sans", sans-serif;
+  text-decoration: none;
+}
+
+#nav1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  background-color: transparent;
+  font-family: "Ropa Sans", sans-serif;
+  text-decoration: none;
+  margin-top:-20px;
+  padding-top:1%;
+  padding-bottom:1%;
+  padding-left: 2%;
+}
+
+#names {
+  width: 200;
+}
+
+#company {
+  font-size: 22px;
+  color:white;
+  margin-top: 28px;
+
+}
+.chartCss{
+  background-color:#d7e1e5;
+}
+.buttonCss {
+  background-color: #d7e1e5;
+  color: black;
+  border: 2px solid #2c3646;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 6px;
+  padding: 11px 100px;
+  min-width: 13%;
+  font-size: 1.15rem;
+  min-height: 20px;
+
+}
+.numCss {
+  background-color: #d7e1e5;
+  color: black;
+  border: 2px solid #2c3646;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 6px;
+   padding: 11px 100px;
+    min-width: 13%;
+    font-size: 1.15rem;
+    min-height: 20px;
+}
+.numCss1 {
+  background-color: #d7e1e5;
+  color: black;
+  border: 2px solid #2c3646;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 6px;
+   padding: 11px 100px;
+    min-width: 13%;
+    font-size: 1.15rem;
+    min-height: 20px;
+}
+.buttonCss:hover {
+  background-color: #2c3646;
+  color: #d7e1e5;
+}
+.buttonCss1{
+  background-color: #2c3646;
+  color: #d7e1e5;
+  border: 2px solid #2c3646;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 6px;
+  padding: 11px 100px;
+  min-width: 13%;
+  font-size: 1.15rem;
+  min-height: 20px;
+}
+
+.linecss {
+    border-bottom: 6px solid #2c3646;
+    height: 25px;
+}
+.calcfourList{
+
+  list-style-type: none;
+}
+
+body {
+  background-color: #d7e1e5;
+
+  font-family: 'Ropa Sans', sans-serif;
+  color: #2c3646;
+  text-align: center;
+  margin-left: 50vh;
+  margin-right: 50vh;
+}
+h2 {
+  color:#2c3646;
+  text-align: left;
+}
+
+#Toolbar {
+  background-color: #2c3646;
+  color: #ffffff;
+    min-width: 13%;
+    font-size: 1.15rem;
+    min-height: 10px;
+}
+#Toolbar1 {
+  background-color: transparent;
+  color: #ffffff;
+}
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+#color {
+  color: #2c3646;
+}
+
+#root {
+  width: 100%;
+}
+
+#backButton {
+  margin-right: 30px;
+}
+
+#instructions {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+#debt h1, h2, h3, h4, {
+  font-family: 'Ropa Sans', sans-serif;
+  font-weight: 700;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+#debt header, .about, .about2, .about3, .about4, .about5, .about6, .about7{
+  padding: 300px;
+  margin-left: -50vh;
+  margin-right: -50vh;
+  height:40vh;
+}
+
+#debt header {
+  background: url("http://hometimes.co.za/wp-content/uploads/2017/07/woman-in-debt-review-resize.jpg") no-repeat fixed center / cover;
+  text-align: center;
+}
+
+#debt #debtPaper{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  width:100%;
+}
+
+#debt #debtAbout1{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 5%;
+}
+#debt #debtAbout2{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 5%;
+}
+#debt #debtAbout3{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-right: 5%;
+}
+#debt #debtAbout5{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 5%;
+}
+#debt #debtAbout6{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-left: 5%;
+}
+#debt #debtAbout7{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 5%;
+}
+#debt .about {
+  background: url("https://footage.framepool.com/shotimg/qf/633149019-head-in-hands-debt-calculating-recession.jpg") no-repeat fixed center / cover;
+  text-align: left;
+}
+
+
+#debt .about2 {
+  background: url("https://files.graphiq.com/stories/t4/student_loan_debt_26091_13917.jpg") no-repeat fixed center / cover;
+  text-align: left;
+}
+
+#debt .about3 {
+  background: url("https://www.universityquestionpapers.com/wp-content/uploads/2018/07/free-debt-calculator-and-spreadsheet-from-vertex-beautiful-free-debt-calculator-and-spreadsheet-from-vertex-unique-the-best-of-free-debt-calculator-and-spreadsheet-from-vertex.jpg") no-repeat fixed center / cover;
+  text-align: right;
+}
+
+#debt .about4 {
+  background: url("http://rebuildcreditscores.com/wp-content/uploads/2015/03/higher-debt-student-loans_634x407.jpg") no-repeat fixed center / cover;
+  text-align: center;
+}
+
+#debt .about5 {
+  background: url("http://www.brimg.net/images/slideshows/savings/2015/save-money-on-a-tight-budget/1-intro.jpg") no-repeat fixed center / cover;
+  text-align: left;
+}
+
+#debt .about6 {
+  background: url("http://www.hirepaperwriter.com/wp-content/uploads/2014/01/o-COLLEGE-STUDENTS-TALKING-facebook.jpg") no-repeat fixed center / cover;
+  text-align: center;
+}
+
+#debt .about7 {
+  background: url("http://www.newhdwallpaper.in/wp-content/uploads/2014/09/Beautiful-happy-girl-read-book.jpg") no-repeat fixed center / cover;
+  text-align: left;
+}
+
+#budget h1, h2, h3, h4, {
+  font-family: 'Ropa Sans', sans-serif;
+  font-weight: 700;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+#budget header, .about, .about2, .about3, .about4 {
+  padding: 300px;
+  margin-left: -50vh;
+  margin-right: -50vh;
+  height:40vh;
+}
+
+#budget #budgetPage{
+  background: url("https://www.wisebread.com/files/fruganomics/imagecache/605x340/blog-images/woman_budgeting_math_98602015.jpg") no-repeat fixed center / cover;
+  text-align: center;
+}
+#budget #budgetPaper{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  width:90%;
+}
+
+#budget .about {
+  background: url("https://www.realestate.com.au/blog/wp-content/uploads/2016/08/31094550/Budgeting-2000x1500-800x600.jpg") no-repeat fixed center / cover;
+  text-align: left;
+}
+
+#budget #paperPara1,#paperPara2,#paperPara4{
+  margin-left: 5%;
+}
+#budget #paperPara3{
+  margin-left: 10%;
+}
+
+#budget .about2{
+  background: url("https://www.myfirstapartment.com/wp-content/uploads/2017/04/young-man-paying-bills.jpg") no-repeat fixed center / cover;
+  text-align: left;
+}
+
+#budget .about3{
+  background: url("https://www.usnews.com/cmsmedia/46/80/8497cefd4d8f921224ca3095347a/150219-budgetingfinances-stock.jpg") no-repeat fixed center / cover;
+  text-align: right;
+}
+
+#budget .about4{
+  background: url("http://blog.slickpie.com/wp-content/uploads/2017/07/graphicstock-business-men-work-with-calculator-and-laptop-on-the-white-table-at-office_rdTUD2vljl.jpg") no-repeat fixed center / cover;
+  text-align: left;
+}
+
+#budget .about5{
+  background: url("http://www.brimg.net/images/slideshows/savings/2015/save-money-on-a-tight-budget/1-intro.jpg") no-repeat fixed center / cover;
+  text-align: left;
+}
+
+#budget #paperPara1{
+  width: 85%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#budget #paperPara2{
+  width: 85%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#budget #paperPara3{
+  width: 85%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#paperPara4{
+  width: 85%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#home #pad {
+	 width: 200%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 10%;
+}
+
+#home #pad1 {
+	padding-top: 5%;
+  padding-bottom: 5%;
+  margin-right: 5%;
+}
+
+#home #pad2 {
+	 width: 200%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 10%;
+  color:#2c3646;
+}
+.transparent_paper{
+  background-color: rgba(255, 255, 255, 0.7) !important;
+}
+.transparent_paper2{
+  background-color: rgba(255, 255, 255, 0.7) !important;
+}
+#login h1, h2, h3, h4, {
+  font-family: 'Ropa Sans', sans-serif;
+  font-weight: 700;
+}
+
+#login header, .login2, .login3 {
+  padding: 300px;
+  margin-left: -50vh;
+  margin-right: -50vh;
+}
+
+#login header {
+  background: url("https://hdqwalls.com/download/nature-background-2560x1440.jpg") no-repeat fixed 50%/cover;
+  height:40vh;
+  text-align: center;
+}
+
+#login #loginPaper{
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
+
+#login .login2 {
+  background: url("https://pics.freeartbackgrounds.com/fullhd/Seascape_after_Sunset_Background-990.jpg") no-repeat fixed 50%/cover;
+  text-align: center;
+  height:40vh;
+}
+
+#insert {
+  margin-top: -30vh;
+}
+
+.textfield {
+  color: white;
+}
+
+
+#headerButtons {
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+  font-size: 24px;
+
+}
+
+#img_style {
+  height: 100vh;
+  margin:-8px;
+  margin-left: -50vh;
+  margin-right: -50vh;
+}
+
+#MenuProfile {
+  font-family: 'Ropa Sans', sans-serif;
+ display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+   min-width: 13%;
+    min-height: 10px;
+    margin-top: 15px;
+}
+
+#home {
+  padding-top: 100vh;
+  margin:-8px;
+  width:101.4%;
+}
+
+#home h1, h2, h3, h4, {
+  font-family: 'Ropa Sans', sans-serif;
+  font-weight: 700;
+  margin: 5vh;
+}
+
+#home header, .about, .about2, .about3, .about4, .about5, .about6, .about7{
+  padding: 300px 0;
+  margin-left: -50vh;
+  margin-right: -50vh;
+  height: 70vh;
+}
+
+#home header {
+  background: url("https://i2.wp.com/wallpaperswide.com/download/freedom-wallpaper-5120x3200.jpg?resize=1060%2C663") no-repeat fixed center / cover;
+  text-align: center;
+}
+
+#problems {
+  font-size: 3em;
+}
+
+#home .about {
+  background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/XHJ9Lcu/videoblocks-independent-woman-traveller-with-arms-raised-on-top-of-mountain-looking-at-view-hiker-girl-lifting-arm-up-celebrating-scenic-landscape-enjoying-vacation-travel-adventure-nature-romsdal-valley-norway_h_xnix5eog_thumbnail-full01.png") no-repeat fixed center / cover;
+  text-align: left;
+}
+
+#home .about2 {
+  background: url("https://alfahir.hu/sites/default/files/indexfoto/student-debt.jpg") no-repeat fixed center / cover;
+  text-align: center;
+}
+
+#home .about3 {
+  background: url("https://www.wallpaperflare.com/static/732/666/472/nature-landscape-waterfall-people-wallpaper-preview.jpg") no-repeat fixed center / cover;
+  text-align: right;
+}
+
+#home .about4 {
+  background: url("https://cdn.dribbble.com/users/1648363/screenshots/3545479/money_piles.gif") no-repeat fixed center / cover;
+  text-align: center;
+  color: white;
+}
+
+#home .about5 {
+  background: url("https://images.unsplash.com/photo-1481278403982-f2d9f387cdcc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=30e568677a5b4f39f090c166e47bce6f&w=1000&q=80") no-repeat fixed center / cover;
+  text-align: left;
+  color: white;
+}
+
+#home .about6 {
+  background-color: rgb(94, 148,125);
+  text-align: center;
+  color: white;
+  height: 278vh;
+}
+
+#calcs {
+  margin-left: -50vh;
+  margin-right: -50vh;
+}
+
+#arrow {
+  position: absolute;
+  height: 5vh;
+  margin-left: -7vh;
+  margin-top: 45vh;
+}
+
+#yourBudgetGraph{
+  float: left;
+  width:50%;
+}
+
+#idealBudgetGraph{
+  float: left;
+  width:50%;
+}
+
+li {
+  height: 50px;
+  font-size: 30px;
+}
+
+
+#paper5 {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  margin-left: 70vh;
+  margin-right: 70vh;
+  color: white;
+  border-radius: 20%;
+
+}
+
+
+#pad {
+  margin-right: 80vh;
+}
+
+
+#box {
+  padding-left: 20vh;
+  padding-right: 20vh;
+}
+
+#cred {
+  background-color: white;
+
+}
+
+.calcfourList{
+  list-style-type: decimal;
+}
+
+#results{
+font-size:30px;
+}
+#resultsPara{
+font-size:25px;
+margin-right: 80px;
+margin-left: 80px;
+text-align: justify;
+
+}
+
+#head{
+  font-size: 24px;
+  color:black;
+}
+
+#bod{
+  font-size: 18px;
+  color:grey;
+}
+
+
+#copyright {
+  background-color: white;
+  color:grey;
+  text-align: center;
+  padding-bottom: 1vh;
+  margin-top: 20vh;
+}
+
+#copy {
+  padding-top: 5vh;
+}
+
+#pad {
+  margin-right: 80vh;
+}
+
+#box {
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+
+#cred {
+  margin: 5vh;
+}
+
+.theList:hover {
+	color: white;
+	background-color: #79A2B6;
+
+
+}
+
+.theList {
+	color:black;
+}
