@@ -41,6 +41,7 @@
 						"redux-form": "^7.4.2",
 						"redux-form-material-ui": "^5.0.0-beta.3",
 						"redux-thunk": "^2.3.0",
+						"typeface-raleway": "0.0.54",
 						"whatwg-fetch": "^2.0.4"
 			},
 			"devDependencies": {}

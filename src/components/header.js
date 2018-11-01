@@ -12,6 +12,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
+import 'typeface-raleway';
 
 class Header extends React.Component {
 	state = {
@@ -116,13 +117,13 @@ class Header extends React.Component {
 						>
 							<span id="nav">
 								<Link to="/" id="company">
-									<font size="6" face='Megrim'>
-										Balance that Budget
+									<font size="6" face='Raleway'>
+										NaMu Consulting
 									</font>
 								</Link>
 								<Link to="/budget">
-									<Button 
-									width="60" 
+									<Button
+									width="60"
 									height="100"
 										color="#f5e2d0"
 										variant="contained"

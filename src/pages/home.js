@@ -12,6 +12,7 @@ import Paper from "@material-ui/core/Paper";
 import { connect } from "react-redux";
 import { compose } from "redux";
 import { firebaseConnect, isLoaded, isEmpty } from "react-redux-firebase";
+import Header from "../components/header.js";
 
 const styles = theme => ({
 	root: {
@@ -127,6 +128,7 @@ function ButtonBases(props) {
 	const { classes } = props;
 	return (
 		<div className={classes.root}>
+			<Header />
 			{images.map(image => (
 				<ButtonBase
 					focusRipple
