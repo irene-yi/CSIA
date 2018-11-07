@@ -117,42 +117,65 @@ class Header extends React.Component {
 						>
 							<span id="nav">
 								<Link to="/" id="company">
-									<font size="6" face='Raleway'>
+									<font face='Raleway'>
 										NaMu Consulting
 									</font>
 								</Link>
-								<Link to="/budget">
+
+								<Link to="/">
 									<Button
-									width="60"
-									height="100"
-										color="#f5e2d0"
 										variant="contained"
 										id="headerButtons"
-										size="large"
 									>
-										<font face="Ropa Sans">How to Budget</font>
+										<font face="Ropa Sans">About Us</font>
 									</Button>
 								</Link>
-								<Link to="/debt">
+
+								<Link to="/">
 									<Button
-										color="#f5e2d0"
 										variant="contained"
 										id="headerButtons"
-										size="large"
 									>
-										<font face="Ropa Sans">Understanding Debt</font>
+										<font face="Ropa Sans">Contact Us</font>
 									</Button>
 								</Link>
-								<Link to="/calc_one">
-								<Button
-								color="#f5e2d0"
+
+								<Link to="/">
+									<Button
 										variant="contained"
 										id="headerButtons"
-										size="large"
 									>
-									<font face="Ropa Sans">Budget Calculator</font>
-								</Button>
+										<font face="Ropa Sans">Schedule</font>
+									</Button>
 								</Link>
+
+								<Link to="/">
+									<Button
+										variant="contained"
+										id="headerButtons"
+									>
+										<font face="Ropa Sans">Packages</font>
+									</Button>
+								</Link>
+
+								<Link to="/">
+									<Button
+										variant="contained"
+										id="headerButtons"
+									>
+										<font face="Ropa Sans">FAQs</font>
+									</Button>
+								</Link>
+
+								<Link to="/login">
+									<Button
+										variant="contained"
+										id="headerButtons"
+									>
+										<font face="Ropa Sans">Login</font>
+									</Button>
+								</Link>
+
 								{greeting}
 							</span>
 						</Typography>
