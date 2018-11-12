@@ -55,12 +55,12 @@ const firebaseConfig = {
        REPLACE WITH YOUR FIREBASE CREDENTIALS
        --------
      */
-    apiKey: "AIzaSyBvUEriWYaTTrJilT9WJckFFVMyL3xY5bE",
-    authDomain: "the-stuff.firebaseapp.com",
-    databaseURL: "https://the-stuff.firebaseio.com",
-    projectId: "the-stuff",
-    storageBucket: "the-stuff.appspot.com",
-    messagingSenderId: "707524126013"
+    apiKey: "AIzaSyADqFUzyHl3mirH-iZhOrZ2cTmRDMCwHpU",
+    authDomain: "namu-6b6a3.firebaseapp.com",
+    databaseURL: "https://namu-6b6a3.firebaseio.com",
+    projectId: "namu-6b6a3",
+    storageBucket: "namu-6b6a3.appspot.com",
+    messagingSenderId: "14590954341"
 };
 
 // react-redux-firebase config
