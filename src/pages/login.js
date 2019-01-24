@@ -180,7 +180,7 @@ class LoginPage extends React.Component {
 									</div>
 								<div id="insert">
 				 					<TodoItems entries={this.state.items}/>
-								
+
 								</div>
 						</section>
 				</div>

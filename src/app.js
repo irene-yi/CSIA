@@ -49,30 +49,27 @@ import TodoItems from"./pages/todoitems.js";
    --------
  */
 
+const firebaseConfig = {
+    /*
+       --------
+       REPLACE WITH YOUR FIREBASE CREDENTIALS
+       --------
+     */
+    apiKey: "AIzaSyBvUEriWYaTTrJilT9WJckFFVMyL3xY5bE",
+    authDomain: "the-stuff.firebaseapp.com",
+    databaseURL: "https://the-stuff.firebaseio.com",
+    projectId: "the-stuff",
+    storageBucket: "the-stuff.appspot.com",
+    messagingSenderId: "707524126013"
+};
 
+// react-redux-firebase config
+const rrfConfig = {
+    userProfile: 'users',
+};
 
- const firebaseConfig = {
-     /*
-        --------
-        REPLACE WITH YOUR FIREBASE CREDENTIALS
-        --------
-      */
-     apiKey: "AIzaSyBvUEriWYaTTrJilT9WJckFFVMyL3xY5bE",
-     authDomain: "the-stuff.firebaseapp.com",
-     databaseURL: "https://the-stuff.firebaseio.com",
-     projectId: "the-stuff",
-     storageBucket: "the-stuff.appspot.com",
-     messagingSenderId: "707524126013"
- };
-
- // react-redux-firebase config
- const rrfConfig = {
-     userProfile: 'users',
- };
-
- // Initialize firebase instance
- firebase.initializeApp(firebaseConfig);
-
+// Initialize firebase instance
+firebase.initializeApp(firebaseConfig);
 
 
 
