@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import TodoItems from "../componenet/todoitems.js";
- 
+
 class TodoList extends Component {
   constructor(props) {
     super(props);
@@ -16,17 +16,17 @@ class TodoList extends Component {
         text: this._inputElement.value,
         key: Date.now()
       };
-   
+
       this.setState((prevState) => {
-        return { 
-          items: prevState.items.concat(newItem) 
+        return {
+          items: prevState.items.concat(newItem)
         };
       });
       this._inputElement.value = "";
     }
-     
+
     console.log(this.state.items);
-       
+
     e.preventDefault();
   }
 
@@ -34,7 +34,7 @@ class TodoList extends Component {
     var filteredItems = this.state.items.filter(function (item) {
       return (item.key !== key);
     });
-   
+
     this.setState({
       items: filteredItems,
     });
@@ -53,5 +53,5 @@ class TodoList extends Component {
     );
   }
 }
- 
+
 export default TodoList;

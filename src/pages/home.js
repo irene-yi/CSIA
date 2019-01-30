@@ -1,18 +1,17 @@
 import React from "react";
+import { compose } from "redux";
 import PropTypes from "prop-types";
+import classNames from "classnames";
+import { connect } from "react-redux";
+import { Link } from "react-router-dom";
+import Grid from "@material-ui/core/Grid";
+import Paper from "@material-ui/core/Paper";
+import Avatar from "@material-ui/core/Avatar";
+import Header from "../components/header.js";
 import { withStyles } from "@material-ui/core/styles";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import Typography from "@material-ui/core/Typography";
-import { Link } from "react-router-dom";
-import Header_Home from "../components/header_home.js";
-import Avatar from "@material-ui/core/Avatar";
-import classNames from "classnames";
-import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
-import { connect } from "react-redux";
-import { compose } from "redux";
 import { firebaseConnect, isLoaded, isEmpty } from "react-redux-firebase";
-import Header from "../components/header.js";
 
 const styles = theme => ({
 	root: {

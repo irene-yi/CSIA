@@ -14,7 +14,6 @@ import { MuiThemeProvider } from '@material-ui/core/styles';
 import initialState from './initialState.json';
 import './style/main.css';
 import Header from './components/header';
-import Header_Home from './components/header_home';
 import Grid from '@material-ui/core/Grid';
 import {createMuiTheme } from '@material-ui/core/styles';
 
