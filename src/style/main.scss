@@ -103,11 +103,8 @@
 }
 
 body {
-  background-color: #d7e1e5;
-
   font-family: 'Ropa Sans', sans-serif;
   color: #2c3646;
-  text-align: center;
   margin-left: 50vh;
   margin-right: 50vh;
 }
@@ -409,7 +406,6 @@ a:active {
 }
 
 #home {
-  padding-top: 100vh;
   margin:-8px;
   width:101.4%;
 }
@@ -427,9 +423,21 @@ a:active {
   height: 70vh;
 }
 
+#home .first {
+  background-color: blue;
+  border-radius: 20px;
+  padding: 200px 0;
+  margin-top: 14vh;
+  margin-left: -40vh;
+  margin-right: -40vh;
+  margin-bottom: -27vh;
+  height: 25vh;
+}
+
 #home header {
   background: url("https://i2.wp.com/wallpaperswide.com/download/freedom-wallpaper-5120x3200.jpg?resize=1060%2C663") no-repeat fixed center / cover;
   text-align: center;
+  margin-top: 39vh;
 }
 
 #problems {
@@ -477,9 +485,9 @@ a:active {
 
 #arrow {
   position: absolute;
-  height: 5vh;
-  margin-left: -7vh;
-  margin-top: 45vh;
+  height: 7vh;
+  margin-left: 77vh;
+  margin-top: 42vh;
 }
 
 #yourBudgetGraph{

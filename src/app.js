@@ -5,17 +5,17 @@
  */
 
 import React from 'react';
-import { connect, Provider } from 'react-redux';
-import { createStore, combineReducers, compose } from 'redux';
-import { reactReduxFirebase, firebaseReducer } from 'react-redux-firebase';
-import firebase from 'firebase';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { MuiThemeProvider } from '@material-ui/core/styles';
-import initialState from './initialState.json';
 import './style/main.css';
+import firebase from 'firebase';
 import Header from './components/header';
 import Grid from '@material-ui/core/Grid';
+import initialState from './initialState.json';
+import { connect, Provider } from 'react-redux';
 import {createMuiTheme } from '@material-ui/core/styles';
+import { MuiThemeProvider } from '@material-ui/core/styles';
+import { createStore, combineReducers, compose } from 'redux';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { reactReduxFirebase, firebaseReducer } from 'react-redux-firebase';
 
 
 

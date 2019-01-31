@@ -27,8 +27,8 @@ const styles = theme => ({
 	image: {
 		position: "relative",
 		[theme.breakpoints.down("xs")]: {
-			width: "500% !important", // Overrides inline-style
-			height: 500
+			width: "500% !important",
+			height: 50
 		},
 		"&:hover, &$focusVisible": {
 			zIndex: 1,
@@ -43,7 +43,6 @@ const styles = theme => ({
 			}
 		}
 	},
-
 	focusVisible: {},
 	imageButton: {
 		position: "absolute",
@@ -56,7 +55,6 @@ const styles = theme => ({
 		justifyContent: "center",
 		color: theme.palette.common.white
 	},
-
 	imageSrc: {
 		position: "absolute",
 		left: 0,
@@ -66,7 +64,6 @@ const styles = theme => ({
 		backgroundSize: "cover",
 		backgroundPosition: "center 40%"
 	},
-
 	imageBackdrop: {
 		position: "absolute",
 		left: 0,
@@ -77,13 +74,11 @@ const styles = theme => ({
 		opacity: 0.4,
 		transition: theme.transitions.create("opacity")
 	},
-
 	imageTitle: {
 		position: "relative",
 		padding: `${theme.spacing.unit * 2}px ${theme.spacing.unit *
 			4}px ${theme.spacing.unit + 6}px`
 	},
-
 	imageMarked: {
 		height: 3,
 		width: 18,
@@ -93,7 +88,6 @@ const styles = theme => ({
 		left: "calc(50% - 9px)",
 		transition: theme.transitions.create("opacity")
 	},
-
 	row: {
 		display: "flex",
 		justifyContent: "center"
@@ -128,7 +122,7 @@ function ButtonBases(props) {
 	return (
 		<div className={classes.root}>
 			<Header />
-			{images.map(image => (
+			{/* {images.map(image => (
 				<ButtonBase
 					focusRipple
 					key={image.title}
@@ -166,9 +160,33 @@ function ButtonBases(props) {
 						</Link>
 					</span>
 				</ButtonBase>
-			))}
+			))} */}
 
 			<div id="home">
+				<section class="first">
+					<div class="row">
+						<div class="twelve columns">
+							<Grid container justify="flex-left">
+								<Grid item xs={3}>
+									<h1>
+										<i>Balance that Budget </i>
+										bla
+									</h1>
+								</Grid>
+							</Grid>
+						</div>
+					</div>
+					<img
+						src="https://cdn0.iconfinder.com/data/icons/controls-4/24/caret-down-512.png"
+						id="arrow"
+					/>
+				</section>
+
+
+
+
+
+
 				<header>
 					<div class="row">
 						<div class="twelve columns">
@@ -366,137 +384,6 @@ function ButtonBases(props) {
 												</p>
 											</Link>
 										</Grid>
-
-
-										{/*{images.map(image => (
-         <section class="about5">
-            <div class="row">
-              <div class="twelve columns" id="pad">
-                <h1>
-                  <i>As a team, </i> we focused on financial literacy because we ourselves are affected by the issue. Initially, we aimed to help high school and college students in the New York area. However, as we continue to develop our webapp, we hope to deploy it for all students across the nation and worldwide.
-                </h1>
-              </div>
-            </div>
-        </section>
-
-        <section class="about6">
-            <div class="row">
-              <div class="twelve columns">
-                <h1>
-                  MEET THE TEAM
-                </h1>
-
-                <br />
-                <div id="box">
-                <Paper className={classes.root1} elevation={1}>
-                  <div id="aboutus" className={classes.row}>
-                    <Avatar
-                      alt="A"
-                      src="https://msbfile03.usc.edu/digitalmeasures/iyi/pci/Irene-Yi-1.jpg"
-                      className={classNames(classes.bigAvatar)}
-                    />
-                    <Grid
-                      container
-                      direction="column"
-                    >
-                      <h2>Irene Yi - Senior</h2>
-                      <h2>School: The Dwight School</h2>
-                      <h2>Dream: CIA Intelligence Officer</h2>
-                    </Grid>
-                  </div>
-                  <hr></hr>
-                  <div id="aboutus" className={classes.row}>
-                    <Avatar
-                      alt="A"
-                      src="https://i.ytimg.com/vi/xG7NLBewdQM/hqdefault.jpg"
-                      className={classNames(classes.bigAvatar)}
-                    />
-                    <Grid
-                      container
-                      direction="column"
-                    >
-                      <h2>Katie Sidebotham - Junior</h2>
-                      <h2>School: </h2>
-                      <h2>Dream: </h2>
-                    </Grid>
-                  </div>
-                  <hr></hr>
-                  <div id="aboutus" className={classes.row}>
-                    <Avatar
-                      alt="A"
-                      src="https://static1.squarespace.com/static/560894d6e4b00830fde888a6/5b52e00b352f530b8e136861/5b52e027575d1f8f7cccbbe8/1532158589074/Malini+Kundamal.jpg"
-                      className={classNames(classes.bigAvatar)}
-                    />
-                    <Grid
-                      container
-                      direction="column"
-                    >
-                      <h2>Malini Kundamal - Junior</h2>
-                      <h2>School: </h2>
-                      <h2>Dream: </h2>
-                    </Grid>
-                  </div>
-                  <hr></hr>
-                  <div id="aboutus" className={classes.row}>
-                    <Avatar
-                      alt="A"
-                      src="https://pbs.twimg.com/media/C3xF10gWIAA52gy.jpg"
-                      className={classNames(classes.bigAvatar)}
-                    />
-                    <Grid
-                      container
-                      direction="column"
-                    >
-                      <h2>Audrey Safir - Junior</h2>
-                      <h2>School:  </h2>
-                      <h2>Dream: </h2>
-                    </Grid>
-                  </div>
-                  <hr></hr>
-                  <div id="aboutus" className={classes.row}>
-                    <Avatar
-                      alt="A"
-                      src="https://mmanewsblog.files.wordpress.com/2013/01/michail-tsarev.jpg"
-                      className={classNames(classes.bigAvatar)}
-                    />
-                    <Grid
-                      container
-                      direction="column"
-                    >
-                      <h2>Daniel Tsarev</h2>
-                      <h2>School: </h2>
-                      <h2>Dream: </h2>
-                    </Grid>
-                  </div>
-                </Paper>
-                </div>
-                <div id="copyright">
-                  <div className={classes.row}>
-                    <div class="three columns" id="cred">
-                      <Grid
-                        container
-                        direction="column"
-                      >
-              					<Link to="/">
-              					 <p id="head">Balance that Budget</p>
-              					</Link>
-              				</Grid>
-                      {/*{images.map(image => (
-                        <ButtonBase
-                          focusRipple
-                          key={image.title}
-                          className={classes.image}
-                          focusVisibleClassName={classes.focusVisible}
-                          style={{
-                            width: image.width,
-                          }}
-                        >
-                        <Link to="/login">
-                          {image.title1}
-                        </Link>
-                      </ButtonBase>
-                      ))}*/}
-
 									</div>
 									<div class="three columns" id="cred">
 										<Grid container direction="column">
