@@ -107,7 +107,9 @@ body {
   color: #2c3646;
   margin-left: 50vh;
   margin-right: 50vh;
+  text-align: center;
 }
+
 h2 {
   color:#2c3646;
   text-align: left;
@@ -423,11 +425,19 @@ a:active {
   font-size: 20px;
 }
 
-#home header, .about, .about2, .about3, .about4, .about5, .about6, .about7{
+#home header, .about, .about2, .about3{
   padding: 300px 0;
   margin-left: -50vh;
   margin-right: -50vh;
   height: 70vh;
+}
+
+#home .about4{
+  margin-top: -38vh;
+  margin-bottom: -80vh;
+  text-align: center;
+  color: white;
+  height: 10vh;
 }
 
 #home .first {
@@ -466,25 +476,6 @@ a:active {
 #home .about3 {
   background: url("https://www.wallpaperflare.com/static/732/666/472/nature-landscape-waterfall-people-wallpaper-preview.jpg") no-repeat fixed center / cover;
   text-align: right;
-}
-
-#home .about4 {
-  background: url("https://cdn.dribbble.com/users/1648363/screenshots/3545479/money_piles.gif") no-repeat fixed center / cover;
-  text-align: center;
-  color: white;
-}
-
-#home .about5 {
-  background: url("https://images.unsplash.com/photo-1481278403982-f2d9f387cdcc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=30e568677a5b4f39f090c166e47bce6f&w=1000&q=80") no-repeat fixed center / cover;
-  text-align: left;
-  color: white;
-}
-
-#home .about6 {
-  background-color: rgb(94, 148,125);
-  text-align: center;
-  color: white;
-  height: 278vh;
 }
 
 #calcs {
@@ -560,11 +551,8 @@ text-align: justify;
 }
 
 #copyright {
-  background-color: white;
   color:grey;
   text-align: center;
-  padding-bottom: 1vh;
-  margin-top: 20vh;
 }
 
 #copy {
