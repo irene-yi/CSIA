@@ -284,7 +284,7 @@ a:active {
   width: 200%;
   padding-top: 5%;
   padding-bottom: 5%;
-  margin-left: 10%; }
+  margin-left: 43.5vh; }
 
 #home #pad1 {
   padding-top: 5%;
@@ -364,6 +364,12 @@ a:active {
   font-weight: 700;
   margin: 5vh; }
 
+#home h1 {
+  font-size: 40px; }
+
+#home h5 {
+  font-size: 20px; }
+
 #home header, .about, .about2, .about3, .about4, .about5, .about6, .about7 {
   padding: 300px 0;
   margin-left: -50vh;
@@ -371,14 +377,16 @@ a:active {
   height: 70vh; }
 
 #home .first {
-  background-color: blue;
+  background: url("http://www.freecollegeshirts.com/uploads/4/8/5/4/48544395/college_orig.png");
   border-radius: 20px;
   padding: 200px 0;
   margin-top: 14vh;
   margin-left: -40vh;
   margin-right: -40vh;
   margin-bottom: -27vh;
-  height: 25vh; }
+  height: 25vh;
+  text-align: center;
+  position: center; }
 
 #home header {
   background: url("https://i2.wp.com/wallpaperswide.com/download/freedom-wallpaper-5120x3200.jpg?resize=1060%2C663") no-repeat fixed center/cover;
@@ -423,8 +431,7 @@ a:active {
 #arrow {
   position: absolute;
   height: 7vh;
-  margin-left: 77vh;
-  margin-top: 42vh; }
+  margin-top: 29.5vh; }
 
 #yourBudgetGraph {
   float: left;
@@ -445,9 +452,6 @@ li {
   margin-right: 70vh;
   color: white;
   border-radius: 20%; }
-
-#pad {
-  margin-right: 80vh; }
 
 #box {
   padding-left: 20vh;
@@ -485,9 +489,6 @@ li {
 
 #copy {
   padding-top: 5vh; }
-
-#pad {
-  margin-right: 80vh; }
 
 #box {
   padding-left: 10vh;

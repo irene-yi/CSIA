@@ -318,10 +318,10 @@ a:active {
 }
 
 #home #pad {
-	 width: 200%;
+	width: 200%;
   padding-top: 5%;
   padding-bottom: 5%;
-  margin-left: 10%;
+  margin-left: 43.5vh;
 }
 
 #home #pad1 {
@@ -331,7 +331,7 @@ a:active {
 }
 
 #home #pad2 {
-	 width: 200%;
+	width: 200%;
   padding-top: 5%;
   padding-bottom: 5%;
   margin-left: 10%;
@@ -379,7 +379,6 @@ a:active {
   color: white;
 }
 
-
 #headerButtons {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -416,6 +415,14 @@ a:active {
   margin: 5vh;
 }
 
+#home h1 {
+  font-size: 40px;
+}
+
+#home h5 {
+  font-size: 20px;
+}
+
 #home header, .about, .about2, .about3, .about4, .about5, .about6, .about7{
   padding: 300px 0;
   margin-left: -50vh;
@@ -424,7 +431,7 @@ a:active {
 }
 
 #home .first {
-  background-color: blue;
+  background: url("http://www.freecollegeshirts.com/uploads/4/8/5/4/48544395/college_orig.png");
   border-radius: 20px;
   padding: 200px 0;
   margin-top: 14vh;
@@ -432,6 +439,8 @@ a:active {
   margin-right: -40vh;
   margin-bottom: -27vh;
   height: 25vh;
+  text-align: center;
+  position: center;
 }
 
 #home header {
@@ -486,8 +495,7 @@ a:active {
 #arrow {
   position: absolute;
   height: 7vh;
-  margin-left: 77vh;
-  margin-top: 42vh;
+  margin-top: 29.5vh;
 }
 
 #yourBudgetGraph{
@@ -516,12 +524,6 @@ li {
 
 }
 
-
-#pad {
-  margin-right: 80vh;
-}
-
-
 #box {
   padding-left: 20vh;
   padding-right: 20vh;
@@ -539,12 +541,12 @@ li {
 #results{
 font-size:30px;
 }
+
 #resultsPara{
 font-size:25px;
 margin-right: 80px;
 margin-left: 80px;
 text-align: justify;
-
 }
 
 #head{
@@ -557,7 +559,6 @@ text-align: justify;
   color:grey;
 }
 
-
 #copyright {
   background-color: white;
   color:grey;
@@ -568,10 +569,6 @@ text-align: justify;
 
 #copy {
   padding-top: 5vh;
-}
-
-#pad {
-  margin-right: 80vh;
 }
 
 #box {

@@ -168,10 +168,18 @@ function ButtonBases(props) {
 						<div class="twelve columns">
 							<Grid container justify="flex-left">
 								<Grid item xs={3}>
-									<h1>
-										<i>Balance that Budget </i>
-										bla
-									</h1>
+									<Paper
+										elevation={8}
+										id="pad"
+										className="transparent_paper"
+									>
+										<h1>
+											<b>Need <i>help</i> for the college process?</b>
+										</h1>
+										<h5>
+											<i>scroll down for more</i>
+										</h5>
+									</Paper>
 								</Grid>
 							</Grid>
 						</div>
