@@ -1,6 +1,6 @@
 /*
    --------
-   import the packages we need
+   Import needed packages
    --------
  */
 
@@ -30,13 +30,6 @@ import HomePage from './pages/home';
 import LoginPage from './pages/login';
 import SignupPage from './pages/signup';
 import BudgetsPage from './pages/budget';
-import CalcOnePage from './pages/calc_one';
-import CalcTwoPage from './pages/calc_two';
-import CalcThreePage from './pages/calc_three';
-import CalcFourPage from './pages/calc_four';
-import CalcFivePage from './pages/calc_five';
-import DebtPage from './pages/debt';
-import ResultsPage from './pages/results';
 import TodoList from "./pages/todolist.js";
 import TodoItems from"./pages/todoitems.js";
 
@@ -131,13 +124,6 @@ export default class App extends React.Component{
   					<Route exact path="/login" component={LoginPage} />
   					<Route exact path="/signup" component={SignupPage} />
   					<Route exact path="/budget" component={BudgetsPage} />
-            <Route exact path="/calc_five" component={CalcFivePage} />
-            <Route exact path="/calc_four" component={CalcFourPage} />
-            <Route exact path="/calc_three" component={CalcThreePage} />
-            <Route exact path="/calc_two" component={CalcTwoPage} />
-            <Route exact path="/calc_one" component={CalcOnePage} />
-            <Route exact path="/debt" component={DebtPage} />
-            <Route exact path="/results" component={ResultsPage} />
 			    </div>
 			</ConnectedRouter>
 		</Provider>

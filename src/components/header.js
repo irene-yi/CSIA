@@ -93,13 +93,6 @@ class Header extends React.Component {
 						open={Boolean(anchorEl)}
 						onClose={this.handleClose}
 					>
-						<MenuItem onClick={this.handleClose}>
-							<Link to="/results">
-								<font color="#2c3646" face="Ropa Sans">
-									My Past Budget
-								</font>
-							</Link>
-						</MenuItem>
 						<MenuItem onClick={() => {this.logout();}}>
 							<Link to="/">
 								<font color="#2c3646" face="Ropa Sans">
