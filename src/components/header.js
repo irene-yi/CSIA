@@ -116,7 +116,7 @@ class Header extends React.Component {
 									</font>
 								</Link>
 
-								<Link to="/">
+								<Link to="/about">
 									<Button
 										variant="contained"
 										id="headerButtons"
@@ -125,7 +125,7 @@ class Header extends React.Component {
 									</Button>
 								</Link>
 
-								<Link to="/">
+								<Link to="/contact">
 									<Button
 										variant="contained"
 										id="headerButtons"
@@ -134,7 +134,7 @@ class Header extends React.Component {
 									</Button>
 								</Link>
 
-								<Link to="/">
+								<Link to="/schedule">
 									<Button
 										variant="contained"
 										id="headerButtons"
@@ -143,7 +143,7 @@ class Header extends React.Component {
 									</Button>
 								</Link>
 
-								<Link to="/">
+								<Link to="/packages">
 									<Button
 										variant="contained"
 										id="headerButtons"
@@ -152,7 +152,7 @@ class Header extends React.Component {
 									</Button>
 								</Link>
 
-								<Link to="/">
+								<Link to="/faqs">
 									<Button
 										variant="contained"
 										id="headerButtons"

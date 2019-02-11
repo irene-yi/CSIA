@@ -30,8 +30,13 @@ import HomePage from './pages/home';
 import LoginPage from './pages/login';
 import SignupPage from './pages/signup';
 import BudgetsPage from './pages/budget';
-import TodoList from "./pages/todolist.js";
-import TodoItems from"./pages/todoitems.js";
+import TodoList from './pages/todolist.js';
+import TodoItems from './pages/todoitems.js';
+import AboutPage from './pages/about';
+import ContactPage from './pages/contact';
+import FAQPage from './pages/faqs';
+import PackagesPage from './pages/packages';
+import SchedulePage from './pages/schedule';
 
 
 
@@ -124,6 +129,11 @@ export default class App extends React.Component{
   					<Route exact path="/login" component={LoginPage} />
   					<Route exact path="/signup" component={SignupPage} />
   					<Route exact path="/budget" component={BudgetsPage} />
+            <Route exact path="/about" component={AboutPage} />
+            <Route exact path="/contact" component={ContactPage} />
+            <Route exact path="/faqs" component={FAQPage} />
+            <Route exact path="/packages" component={PackagesPage} />
+            <Route exact path="/schedule" component={SchedulePage} />
 			    </div>
 			</ConnectedRouter>
 		</Provider>
