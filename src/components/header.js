@@ -19,16 +19,12 @@ class Header extends React.Component {
 	state = {
 		anchorEl: null
 	};
-
 	handleClick = event => {
 		this.setState({ anchorEl: event.currentTarget });
 	};
-
 	handleClose = () => {
-
 		this.setState({ anchorEl: null });
 	};
-
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -38,11 +34,9 @@ class Header extends React.Component {
 			}
 		};
 	}
-
 	logout() {
 		this.props.firebase.logout();
 	}
-
 	closeSnackbar(event, reason) {
 		if (reason == "clickaway") {
 			// do nothing
@@ -54,7 +48,6 @@ class Header extends React.Component {
 			}
 		});
 	}
-
 	render() {
 		const { anchorEl } = this.state;
 		let greeting;
