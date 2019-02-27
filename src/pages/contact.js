@@ -34,150 +34,40 @@ class ContactPage extends React.Component {
 				  <br />
 					<br />
 			<div id="budget">
-				  <header id="budgetPage">
-				      <Grid container justify="center">
-					  	<Grid item xs={3} >
+				<header id="budgetPage">
+				  <Grid container justify="center">
+					  <Grid item xs={3} >
 							<Paper elevation={8} id="budgetPaper" className="transparent_paper">
-				          		<h1>Budget</h1>
-				        	</Paper>
+				        <h1>Contact US</h1>
+				      </Paper>
 						</Grid>
 					</Grid>
-				  </header>
+				</header>
+        <span id="nav3">
+        <div>
+          <img src="http://mklassusa.com/academy/wp-content/uploads/2013/12/IMG_0181-e1461954876681-400x300.jpg" />
+        </div>
+        <h3>
+          Palisades Park Branch
+        </h3>
+        <div>
+          <p>342A Commercial Ave. Palisades Park, NJ 07650</p>
+          <p>
+            <i id="icon-phone" />
+            201-242-9494
+            <br />
+            <i id="icon-envelope" />
+            info@mklassusa.com
+          </p>
+        </div>
+        <p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.9014848126803!2d-74.00384138459075!3d40.852086679316926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f7140e142d01%3A0x166384ee72bb1ad8!2s342A+Commercial+Ave%2C+Palisades+Park%2C+NJ+07650!5e0!3m2!1sen!2sus!4v1461955357741" width="500" height="300" frameborder="0" allowfullscreen="allowfullscreen">
+          </iframe>
+        </p>
+        </span>
 
-				<section className="about">
-					<Grid container>
-					  	<Grid item xs={6}>
-							<Paper elevation={8} id="paperPara1" className="transparent_paper">
-						          <h1>What is a Budget?
-						          <br />
-						          <br />
-									Budget
-									is an estimate of income and expenses
-									<br />
-									for a set period
-									of time, frequently designated
-									<br />
-									 into categories.
-									<br />
-									<br />
-
-											1. Helps make sure you will have enough
-											<br />
-											money to sustain yourself every month
-									<br />
-									<br />
-											2. Shows how much money you make
-											<br />and how you've spent your money.
-											</h1>
-							</Paper>
-						</Grid>
-					</Grid>
-				</section>
-
-				<section className ="about2">
-				  	<Grid container>
-					  	<Grid item xs={6}>
-							<Paper elevation={8} id="paperPara2" className="transparent_paper">
-					  			<h1>Zero-Based Budget
-					  			<br />
-					  			<br />
-								The idea of a <strong>
-								zero-based budget </strong>
-								is simple: <strong>
-								<br />
-								income minus money you spend equals zero.
-								</strong>
-								<br />
-								In other words, if you bring home $3,000 each
-								<br />
-								month in
-								income, you need to budget where
-								<br /> that money should go.
-								This doesn’t mean you
-								<br />
-								have a bank account balance of
-								zero, but
-								<br />
-								when you get paid, you have already
-								<br /> allocated
-								where every cent is going.</h1>
-				  			</Paper>
-				  		</Grid>
-				  	</Grid>
-				</section>
-
-				<section className="about3">
-				  	<Grid container justify="flex-end">
-					  	<Grid item xs={6} >
-							<Paper elevation={8} id="paperPara3" className="transparent_paper">
-					  			<h1>50-30-20 Plan
-								<br />
-								<br />
-								With this plan, it is recommended that
-								<br />
-								<strong>50%</strong> of your income (after taxes) is
-								used for
-								<br />
-								essentials.
-								<strong> 30%</strong> of your income (after taxes)
-								<br />
-								can
-								be allocated to your wants and personal.
-								<br />
-								 needs. The
-								remaining <strong>20%</strong> can be allocated
-								<br />
-								to your
-								savings.</h1>
-				  			</Paper>
-				  		</Grid>
-				  	</Grid>
-				</section>
-
-				  <section className ="about4">
-				  	<Grid container>
-					  	<Grid item xs={6}>
-							<Paper elevation={8} id="paperPara4" className="transparent_paper">
-					  			<h1>Establish a college repayment fund.
-					  			<br />
-					  			<br />
-								Having money moved automatically into savings is
-								effective
-								<br />
-								because it’s forced. It enables people to set
-								aside money to
-								<br />
-								grow that otherwise would be spent on
-								clothes or dining out.
-								<br />
-										Set up an account that will be used only for
-										paying back
-										<br />
-										your college debt.</h1>
-				  			</Paper>
-				  		</Grid>
-				  	</Grid>
-				  </section>
-
-				  <section className ="about5">
-				  	<Grid container>
-					  	<Grid item xs={6}>
-							<Paper elevation={8} id="paperPara4" className="transparent_paper">
-					  			<h1>Recommended Sites:
-					  			<br />
-					  			<br />
-					  			<a href="http://time.com/money/best-colleges/build-your-own-rankings/">Find the School Best Fit for You </a>
-					  			<br /><br />
-
-					  			<a href="https://apple.news./AFan5ZLM-RyCxPanS_WTNhg">25 Best Colleges in the U.S. Right Now</a>
-					  			</h1>
-				  			</Paper>
-				  		</Grid>
-				  	</Grid>
-				  </section>
-
-				</div>
 			</div>
+		</div>
 		);
 	}
 }

@@ -7,6 +7,9 @@
   font-size: 25px;
   background-color: #19bebb; }
 
+#nav3 {
+  display: flex; }
+
 #nav1 {
   display: flex;
   justify-content: space-between;
@@ -69,67 +72,22 @@ a:active {
   margin-top: 30px;
   margin-bottom: 30px; }
 
-#budget h1, h2, h3, h4 {
+#budget h1 {
   font-family: 'Ropa Sans', sans-serif;
   font-weight: 700;
   margin-left: 5vh;
   margin-right: 5vh; }
 
-#budget header, .about, .about2, .about3, .about4 {
-  padding: 300px;
+#budget header {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   margin-left: -50vh;
-  margin-right: -50vh;
-  height: 40vh; }
-
-#budget #budgetPage {
-  background: url("https://www.wisebread.com/files/fruganomics/imagecache/605x340/blog-images/woman_budgeting_math_98602015.jpg") no-repeat fixed center/cover;
-  text-align: center; }
+  margin-right: -50vh; }
 
 #budget #budgetPaper {
   padding-top: 1px;
   padding-bottom: 1px;
   width: 90%; }
-
-#budget .about {
-  background: url("https://www.realestate.com.au/blog/wp-content/uploads/2016/08/31094550/Budgeting-2000x1500-800x600.jpg") no-repeat fixed center/cover;
-  text-align: left; }
-
-#budget #paperPara1, #paperPara2, #paperPara4 {
-  margin-left: 5%; }
-
-#budget #paperPara3 {
-  margin-left: 10%; }
-
-#budget .about2 {
-  background: url("https://www.myfirstapartment.com/wp-content/uploads/2017/04/young-man-paying-bills.jpg") no-repeat fixed center/cover;
-  text-align: left; }
-
-#budget .about3 {
-  background: url("https://www.usnews.com/cmsmedia/46/80/8497cefd4d8f921224ca3095347a/150219-budgetingfinances-stock.jpg") no-repeat fixed center/cover;
-  text-align: right; }
-
-#budget .about4 {
-  background: url("http://blog.slickpie.com/wp-content/uploads/2017/07/graphicstock-business-men-work-with-calculator-and-laptop-on-the-white-table-at-office_rdTUD2vljl.jpg") no-repeat fixed center/cover;
-  text-align: left; }
-
-#budget .about5 {
-  background: url("http://www.brimg.net/images/slideshows/savings/2015/save-money-on-a-tight-budget/1-intro.jpg") no-repeat fixed center/cover;
-  text-align: left; }
-
-#budget #paperPara1 {
-  width: 85%;
-  padding-top: 5%;
-  padding-bottom: 5%; }
-
-#budget #paperPara2 {
-  width: 85%;
-  padding-top: 5%;
-  padding-bottom: 5%; }
-
-#budget #paperPara3 {
-  width: 85%;
-  padding-top: 5%;
-  padding-bottom: 5%; }
 
 #paperPara4 {
   width: 85%;
@@ -193,8 +151,14 @@ a:active {
   margin-top: 15px;
   margin-bottom: 15px;
   width: 16vh;
-  font-size: 20px;
+  font-size: 18px;
   background-color: #e1e2e3; }
+
+#icon-phone {
+  background-image: url("https://cdn4.iconfinder.com/data/icons/rcons-phone/16/handset_round-2-512.png"); }
+
+#icon-envelope {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/elite-general/513/envelope-1-512.png"); }
 
 #img_style {
   height: 103vh;
