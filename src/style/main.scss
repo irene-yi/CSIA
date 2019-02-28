@@ -8,21 +8,50 @@
   background-color: #19bebb;
 }
 
+#title {
+  margin-top: -12vh;
+  margin-bottom: -14vh;
+  font-size: 28px;
+}
+
+#address {
+  font-size: 22px;
+}
+
+#pic {
+  font-size: 22px;
+}
+
 #nav10 {
   display: flex;
-  margin-left: -43vh;
+  margin-left: -41vh;
 }
 
 #nav15 {
-  margin-left: 8vh;
+  margin-left: 15vh;
+  margin-right: 4vh;
 }
 
 #nav20 {
   margin-left: 12vh;
 }
 
-#address {
+#pic {
   display: flex;
+}
+
+#phone {
+  height: 5vh;
+  width: 5vh;
+}
+
+#mail {
+  height: 3vh;
+  width: 5vh;
+}
+
+#info {
+  margin-left: 1vh;
 }
 
 #nav1 {
