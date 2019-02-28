@@ -7,7 +7,17 @@
   font-size: 25px;
   background-color: #19bebb; }
 
-#nav3 {
+#nav10 {
+  display: flex;
+  margin-left: -43vh; }
+
+#nav15 {
+  margin-left: 8vh; }
+
+#nav20 {
+  margin-left: 12vh; }
+
+#address {
   display: flex; }
 
 #nav1 {
@@ -153,12 +163,6 @@ a:active {
   width: 16vh;
   font-size: 18px;
   background-color: #e1e2e3; }
-
-#icon-phone {
-  background-image: url("https://cdn4.iconfinder.com/data/icons/rcons-phone/16/handset_round-2-512.png"); }
-
-#icon-envelope {
-  background-image: url("https://cdn0.iconfinder.com/data/icons/elite-general/513/envelope-1-512.png"); }
 
 #img_style {
   height: 103vh;
