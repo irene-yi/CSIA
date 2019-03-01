@@ -136,15 +136,6 @@ class Header extends React.Component {
 									</Button>
 								</Link>
 
-								<Link to="/packages">
-									<Button
-										variant="contained"
-										id="headerButtons"
-									>
-										<font face="Ropa Sans">Packages</font>
-									</Button>
-								</Link>
-
 								<Link to="/login">
 									<Button
 										variant="contained"

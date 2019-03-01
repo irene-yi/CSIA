@@ -34,7 +34,6 @@ import TodoList from './pages/todolist.js';
 import TodoItems from './pages/todoitems.js';
 import AboutPage from './pages/about';
 import ContactPage from './pages/contact';
-import PackagesPage from './pages/packages';
 import SchedulePage from './pages/schedule';
 
 
@@ -130,7 +129,6 @@ export default class App extends React.Component{
   					<Route exact path="/budget" component={BudgetsPage} />
             <Route exact path="/about" component={AboutPage} />
             <Route exact path="/contact" component={ContactPage} />
-            <Route exact path="/packages" component={PackagesPage} />
             <Route exact path="/schedule" component={SchedulePage} />
 			    </div>
 			</ConnectedRouter>
