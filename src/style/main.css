@@ -86,7 +86,8 @@
 
 #title2c {
   font-size: 22px;
-  text-align: center; }
+  text-align: center;
+  margin-left: -5vh; }
 
 #nav1 {
   display: flex;
@@ -107,7 +108,7 @@
   font-size: 30px;
   color: white;
   margin-top: 28px;
-  margin-right: 20vh; }
+  margin-right: 60vh; }
 
 body {
   font-family: 'Ropa Sans', sans-serif;
