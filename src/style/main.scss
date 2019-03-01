@@ -1,3 +1,4 @@
+/** General **/
 #container {
   margin-top: 7rem;
 }
@@ -8,51 +9,85 @@
   background-color: #19bebb;
 }
 
+/** Contact Us **/
 #title {
   margin-top: -12vh;
   margin-bottom: -14vh;
   font-size: 28px;
 }
-
 #address {
   font-size: 22px;
 }
-
 #pic {
   font-size: 22px;
 }
-
 #nav10 {
   display: flex;
   margin-left: -41vh;
 }
-
 #nav15 {
   margin-left: 15vh;
   margin-right: 4vh;
 }
-
 #nav20 {
   margin-left: 12vh;
 }
-
 #pic {
   display: flex;
 }
-
 #phone {
   height: 5vh;
   width: 5vh;
 }
-
 #mail {
   height: 3vh;
   width: 5vh;
 }
-
 #info {
   margin-left: 1vh;
 }
+
+/** Schedule **/
+#text {
+  text-align: center;
+}
+#lists {
+  font-size: 12px;
+  text-align: left;
+  margin-left: -24vh;
+}
+#pics {
+  align-content: center;
+  margin-left: -22vh;
+}
+#title1 {
+  font-size: 28px;
+  text-align: center;
+  margin-top: -3vh;
+  margin-left: 2vh;
+}
+#title1w {
+  font-size: 28px;
+  text-align: center;
+  margin-top: -5vh;
+  margin-bottom: -4vh;
+  margin-left: -.08vh;
+}
+#title2 {
+  font-size: 22px;
+  text-align: center;
+  margin-left: -90vh;
+}
+#title2a {
+  font-size: 22px;
+  margin-left: -31vh;
+}
+#title2b {
+  font-size: 22px;
+  margin-left: -40vh;
+}
+
+
 
 #nav1 {
   display: flex;
