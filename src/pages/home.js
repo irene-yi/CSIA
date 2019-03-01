@@ -165,7 +165,7 @@ function ButtonBases(props) {
 									>
 										<h2>
 											<i>NaMu </i>
-											is BLAHHHHHHH.
+											is a consulting company for high schoolers aiming to be accepted into prestigious colleges and universities. We work hand in hand with the SAT test prep academy, Master Klass.
 										</h2>
 									</Paper>
 								</Grid>
@@ -189,7 +189,7 @@ function ButtonBases(props) {
 										className="transparent_paper"
 									>
 							<h2>
-								Our goal is to BLAHHHHHHH.............
+								Our goal is to help students achieve their dreams of going to their top choice college or university both within the United States and internationally.
 							</h2>
 							</Paper>
 								</Grid>
@@ -214,39 +214,31 @@ function ButtonBases(props) {
 									<div class="three columns" id="cred">
 										<Grid container direction="column">
 											<Link to="/calc_one">
-												<p id="head">Budget Calculator</p>
-												<p id="bod">What is your monthly salary?</p>
+												<p id="head">About Us</p>
+												<p id="bod">Who are we?</p>
 											</Link>
 										</Grid>
 									</div>
 									<div class="three columns" id="cred">
 										<span>
 											<Link to="/budget">
-												<p id="head">How to Budget</p>
-												<p id="bod">What is a budget?</p>
+												<p id="head">Contact Us</p>
+												<p id="bod">Where are we located?</p>
 											</Link>
 										</span>
 									</div>
 									<div class="three columns" id="cred">
 										<span>
 											<Link to="/debt">
-												<p id="head">Understanding Debt{" "}</p>
-												<p id="bod">What is debt?</p>
-											</Link>
-										</span>
-									</div>
-									<div class="three columns" id="cred">
-										<span>
-											<Link to="/debt">
-												<p id="head">Student Loan</p>
-												<p id="bod">The Power of 50</p>
+												<p id="head">Schedule</p>
+												<p id="bod">Do you want to see us?</p>
 											</Link>
 										</span>
 									</div>
 								</div>
 								<div id="copy">
 									<p>
-										Copyright © 2018 Snack Attack Inc. - All
+										Copyright © 2018 JJ Design Corp. Inc. - All
 										rights reserved.
 									</p>
 								</div>
